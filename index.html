@@ -1,0 +1,16 @@
+<html>
+<title>Language Redirect</title>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        var BorwserLang = navigator.language;
+        if (BorwserLang == 'zh-TW') {
+            window.location.replace('zh');
+        } else {
+            window.location.replace('en');
+        }
+    </script>
+</head>
+
+</html>
