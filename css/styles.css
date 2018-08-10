@@ -165,21 +165,21 @@ a:hover {
     padding: 7px;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: #884db5;
+.navbar-default .navbar-nav > li > a {
+    color: #F33D81;
     font-weight: 500;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-    color: #313131;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #cb064a;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     background: transparent;
-    color: #884db5;
+    color: #cb064a;
 }
 
 .btn-default {
@@ -200,7 +200,7 @@ a:hover {
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
-.open>.dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
     border: 2px solid #884db5;
     background: #884db5;
     color: white;
@@ -224,7 +224,7 @@ a:hover {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
     border: 2px solid #fff;
     background: transparent;
     color: #fff;
@@ -247,7 +247,7 @@ a:hover {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active,
-.open>.dropdown-toggle.btn-secondary {
+.open > .dropdown-toggle.btn-secondary {
     background: #1f96e0;
     color: white
 }
@@ -1290,7 +1290,7 @@ img.img-center {
 .btn-default-her:focus,
 .btn-default-her:active,
 .btn-default-her.active,
-.open>.dropdown-toggle.btn-default-her {
+.open > .dropdown-toggle.btn-default-her {
     border: 2px solid #e83076;
     background: #e83076;
     color: white;
@@ -1757,7 +1757,7 @@ section.section-padding.gray-bg {
 .btn-default-store:focus,
 .btn-default-store:active,
 .btn-default-store.active,
-.open>.dropdown-toggle.btn-default-store {
+.open > .dropdown-toggle.btn-default-store {
     border: 2px solid #84cd48;
     background: #84cd48;
     color: white;
@@ -2070,7 +2070,7 @@ row-send {
 .btn-default-contact:focus,
 .btn-default-contact:active,
 .btn-default-contact.active,
-.open>.dropdown-toggle.btn-default-contact {
+.open > .dropdown-toggle.btn-default-contact {
     border: 2px solid #84cd48;
     background: #84cd48;
     color: #fff;
@@ -2078,7 +2078,6 @@ row-send {
 
 
 /* ----------- Hergeia官網 ----------- */
-
 
 /* Hergeia index */
 
@@ -2196,7 +2195,7 @@ row-send {
 .btn-default-her:focus,
 .btn-default-her:active,
 .btn-default-her.active,
-.open>.dropdown-toggle.btn-default-her {
+.open > .dropdown-toggle.btn-default-her {
     border: 2px solid #a464d5;
     background: #a464d5;
     color: white;
@@ -2304,20 +2303,21 @@ section#contact-her .text-danger {
 .btn-default-contact-her:focus,
 .btn-default-contact-her:active,
 .btn-default-contact-her.active,
-.open>.dropdown-toggle.btn-default-contact-her {
+.open > .dropdown-toggle.btn-default-contact-her {
     border: 2px solid #a464d5;
     background: #a464d5;
     color: #fff;
 }
 
 
-/* 賀小姐商品網 */
+/* 賀小姐商品網
+---------------------------------------*/
 
 .banner-herlady {
     position: relative;
     /* top: -80px; */
     /* padding-top: 20px; */
-    color: #fff;
+    color: #e51b67;
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/herlady-banner.png);
@@ -2335,8 +2335,7 @@ section#contact-her .text-danger {
     line-height: 20px;
     padding: 15px 26px;
     height: 50px;
-    border: 2px solid #fff;
-    background: #fff;
+    border: 2px solid #e51b67;
     transition: all 0.4s;
     color: #e51b67;
     border-radius: 100px;
@@ -2346,12 +2345,18 @@ section#contact-her .text-danger {
 .btn-primary-herlady:focus,
 .btn-primary-herlady:active,
 .btn-primary-herlady.active,
-.open>.dropdown-toggle.btn-primary-herlady {
-    border: 2px solid #fff;
-    background: transparent;
+.open > .dropdown-toggle.btn-primary-herlady {
+    border: 2px solid #e51b67;
+    background: #e51b67;
     color: #fff;
 }
 
+/* pH酸鹼說明 */
+
+#her-ph {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
 
 /* herlady what */
 
@@ -2606,7 +2611,7 @@ section#contact-her .text-danger {
 .btn-default-herlady:focus,
 .btn-default-herlady:active,
 .btn-default-herlady.active,
-.open>.dropdown-toggle.btn-default-herlady {
+.open > .dropdown-toggle.btn-default-herlady {
     border: 2px solid #e83076;
     background: #e83076;
     color: #fff;
@@ -2746,7 +2751,7 @@ li {
 .btn-default-instru:focus,
 .btn-default-instru:active,
 .btn-default-instru.active,
-.open>.dropdown-toggle.btn-default-instru {
+.open > .dropdown-toggle.btn-default-instru {
     border: 2px solid #e83076;
     background: #e83076;
     color: #fff;
