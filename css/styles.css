@@ -2641,7 +2641,7 @@ section#contact-her .text-danger {
 }
 
 
-/* herlady 注意事項 */
+/* herlady FAQ注意事項 */
 
 #content-notice {
     position: relative;
@@ -2656,15 +2656,12 @@ section#contact-her .text-danger {
     padding: 10px;
     margin: 0px 10px 15px 10px;
     text-align: left;
-    height: 220px;
+    height: 280px;
 }
 
 .notice-label {
     padding-left: 8px;
 }
-
-
-/* herlady FAQ */
 
 ul,
 li {
